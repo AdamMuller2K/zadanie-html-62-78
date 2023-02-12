@@ -1,0 +1,14 @@
+a
+dany jest trójk¹t prostok¹tny.
+wczytaæ przeiwprostok¹tn¹ c_sci
+oraz przeciwprostok¹tn¹ b_sci
+wykonac wypisac wczytane dane ,
+z jednost¹ cm , wielkosc 13 mm kolor fioletowy
+b
+oblicz przeciwprostok¹tn¹(2 miejsca po przecinku jednostka)
+oblicz obwód z jednostk¹
+pole z jednostk¹
+wysokosci z jednostkami
+k¹ty trójk¹ta wyra¿one w stopniach
+wszystkie funkcje trygometryczne (3 miejsca po przecinku)
+u¿yj modu³u.Math

@@ -1,0 +1,6 @@
+dany jest trójk¹t prostok¹tny czytaæ przeciwprostok¹tn¹ c"3 pierwsze litery ucznia oraz przyprostok¹tn¹ 3 litery nazwiska ucznia" obliczyæ trzeci 
+bok obwód pole wszystkie wysokoœci oraz podaæ wszystkie k¹ty tego rójk¹ta wszyskie funkcje trygonometryczne
+
+wynuiki do 3 miejsc po przecinku do boliczeñ u¿yj modu³u MAth 
+
+13 a

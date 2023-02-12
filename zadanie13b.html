@@ -1,0 +1,46 @@
+﻿<html>
+    <body>
+        <title>Zadanie 13b</title>
+    <div style="color:red;font-size:50px;">
+     <script language="JavaScript">
+    var liczba1=prompt("c=","");
+    var liczba2=prompt("b=","");
+     var c_mull=parseFloat(liczba1);
+     var b_mull=parseFloat(liczba2);
+    var 
+    a_mull=Math.sqrt(Math.pow(c_mull,2)-Math.pow(b_mull,2));
+    h3_mull=(a_mull*b_mull)/c_mull;
+    sin_alfa_mull=b_mull/c_mull;
+    cos_alfa_mull=a_mull/c_mull;
+    tg_alfa_mull=b_mull/a_mull;
+    ctg_alfa_mull=a_mull/b_mull;
+    alfa_mull=Math.asin(b_mull/c_mull)*180/Math.PI;
+    beta_mull=90-alfa_mull;
+    sin_beta_mull=a_mull/c_mull;
+    cos_beta_mull=b_mull/c_mull;
+    tg_beta_mull=a_mull/b_mull;
+    ctg_beta_mull=b_mull/a_mull;
+    obw_mull=a_mull+b_mull+c_mull;
+    pole_mull=1/2*a_mull*b_mull;
+     document.write("c="+c_mull+"cm"+"<br>");
+     document.write("b="+b_mull+"cm"+"<br>");
+     document.write("a="+a_mull.toFixed(3)+"cm"+"<br>");
+     document.write("1 wysokosc="+a_mull+"cm"+"<br>");
+     document.write("2 wysokosc="+b_mull.toFixed(3)+"cm"+"<br>");
+     document.write("3 wysokosc="+h3_mull.toFixed(3)+"cm"+"<br>");
+     document.write("Obwod="+obw_mull.toFixed(3)+"cm"+"<br>");
+     document.write("Pole="+pole_mull.toFixed(3)+"cm2"+"<br>");
+     document.write("alfa="+alfa_mull.toFixed(3)+"st"+"<br>");
+     document.write("sinalfa="+sin_alfa_mull.toFixed(3)+"<br>");
+     document.write("cosalfa="+cos_alfa_mull.toFixed(3)+"<br>");
+     document.write("tgalfa="+tg_alfa_mull.toFixed(3)+"<br>");
+     document.write("ctgalfa="+ctg_alfa_mull.toFixed(3)+"<br>");
+     document.write("beta="+beta_mull.toFixed(3)+"st"+"<br>");
+     document.write("sinbeta="+sin_beta_mull.toFixed(3)+"<br>");
+     document.write("cosbeta="+cos_beta_mull.toFixed(3)+"<br>");
+     document.write("tgbeta="+tg_beta_mull.toFixed(3)+"<br>");
+     document.write("ctgbeta="+ctg_beta_mull.toFixed(3)+"<br>");
+     </script>
+    </div>
+    </body>
+    </html>

@@ -1,0 +1,24 @@
+<html>
+        <body>
+            <title>Zadanie 9</title>
+        <div style="color:red;font-size:39px;">
+         <script language="JavaScript">
+        var liczba1=prompt("dzien_1=","");
+        var liczba2=prompt("godzina_1=","");
+        var liczba3=prompt("dzien_2=","");
+        var liczba4=prompt("godzina_2=","");
+        var ile_sekund_mull;
+         var D1_mull=parseFloat(liczba1);
+         var G1_mull=parseFloat(liczba2);
+         var D2_mull=parseFloat(liczba3);
+         var G2_mull=parseFloat(liczba4);
+        ile_sekund_mull=D1_mull*24*3600+G1_mull*3600-D2_mull*24*3600-G2_mull*3600;
+        document.write("D1="+D1_mull+"<br>");
+        document.write("G1="+G1_mull+"<br>");
+        document.write("D2="+D2_mull+"<br>");
+        document.write("G2="+G2_mull+"<br>");
+         document.write("ilosc sekund="+ile_sekund_mull+" sekund"+"<br>");
+         </script>
+        </div>
+        </body>
+        </html>
